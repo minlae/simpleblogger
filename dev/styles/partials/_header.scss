@@ -1,0 +1,33 @@
+header {
+
+	background: $menu-background;
+	padding: 12px;
+
+	.header-menu {
+		font-size: 1.4rem;
+		display: flex;
+		justify-content: space-around;
+		width: 25%;
+		background: $menu-background;
+		
+		@include respond-to("medium") {
+			width: 35%;
+		}
+		@include respond-to("small") {
+			width: 100%;
+			justify-content: space-between;
+		}
+
+		.nav-link {
+			text-decoration: none;
+			color: $links;
+			font-family: $headingFont;
+
+			&:hover {
+				color: $links-hover;
+			}
+		}
+	}
+}
+
+//Make a hamburger menu on mobile

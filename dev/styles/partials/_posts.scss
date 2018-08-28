@@ -1,0 +1,74 @@
+.input-container {
+	width: 90%;
+}
+
+.post-form-container {
+
+	form {
+		display: flex;
+		flex-direction: column;
+
+		select { 
+			font-size: 0.8rem;
+			letter-spacing: 1px;
+			padding: 7px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: $links;
+			color: black;
+			border: none;
+			outline: none;
+			margin-right: 10px;
+			margin-bottom: 7px;
+        }
+
+        .title-input {
+        	font-size: 1rem;
+    	    padding: 10px;
+    	    border-radius: 5px;
+    	    margin-bottom: 10px;
+    	    width: 70%;
+    	    outline: none;
+    	    border: none;
+        }
+
+        .post-body-input {
+        	height: 150px;
+        	font-size: 0.9rem;
+        	padding: 10px;
+        	border-radius: 5px;
+        	border: none;
+        	margin-bottom: 10px;
+        }
+
+        .post-button {
+        	padding: 10px;
+        	border-radius: 5px;
+        	outline: none;
+        	width: 150px;
+        	font-size: 0.8rem;
+        	background-color: $links;
+        	border: 1px solid black;
+        	text-transform: uppercase;
+        	letter-spacing: 1px;
+
+        	&:hover {
+        		background: white;
+        	}
+        }
+
+		.username-container {
+			display: flex;
+
+			label {
+				padding-right: 5px;
+				padding-top: 7px;
+				font-size: 0.8rem;
+				font-weight: 700;
+				letter-spacing: 1px;
+			}
+		}
+	}
+
+}

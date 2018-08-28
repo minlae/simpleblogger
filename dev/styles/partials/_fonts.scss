@@ -1,0 +1,19 @@
+body {
+	font-size: 62.5%;
+	font-family: $bodyFont;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: $headingFont;
+	letter-spacing: 2px;
+}
+
+p {
+	font-size: 2rem;
+}
+
+button {
+	font-family: $headingFont;
+	font-weight: 700;
+}
