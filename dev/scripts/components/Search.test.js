@@ -1,8 +1,6 @@
 import Search from './Search';
 import React from 'react';
-// import renderer from 'react-test-renderer';
-// import { MemoryRouter } from 'react-router';
-// import { mount } from 'enzyme';
+
 
 describe('constructor', () => {
 	it('should set state to default', () => {
@@ -12,7 +10,6 @@ describe('constructor', () => {
 			results: []
 		});
 	});	
-
 	
 	it('should call ref', () => {
 		const createRefSpy = jest.spyOn(React, 'createRef').mockReturnValue('hello');
