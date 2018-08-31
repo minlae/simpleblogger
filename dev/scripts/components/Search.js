@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Header from './Header';
+import Title from './Title';
 import Suggestions from './Suggestions';
 
 class Search extends React.Component {
@@ -56,7 +57,7 @@ class Search extends React.Component {
 			<div>
 				<Header />
 				<div className="main-page">
-					<h1>Search 🔎</h1>
+					<Title title="Search 🔎" />
 					<div className="main-page-container">
 						<form>
 							<label htmlFor="search-input">Search:</label>

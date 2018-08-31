@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Title from './Title';
 import AddPostForm from './AddPostForm';
 
 
@@ -10,7 +11,7 @@ render() {
 		<div>
 			<Header />
 			<div className="main-page">
-				<h1>Blog Poster</h1>
+				<Title title="Blog Poster" />
 				<div className="main-page-container">
 					<div className="input-container">
 						<AddPostForm />
