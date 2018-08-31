@@ -20,10 +20,9 @@ class Search extends React.Component {
 
 	}
 
-	//need to delete suggestions if user clears the input field
 
 	handleInputChange() {
-		// console.log(this.searchRef.current.value);
+
 		this.setState({
 			query: this.searchRef.current.value
 		}, () => {
