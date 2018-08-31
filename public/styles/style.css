@@ -232,6 +232,8 @@ header {
     outline: none;
     margin-right: 10px;
     margin-bottom: 7px; }
+  .post-form-container form textarea {
+    resize: none; }
   .post-form-container form .title-input {
     font-size: 1rem;
     padding: 10px;
