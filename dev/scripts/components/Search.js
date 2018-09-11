@@ -16,7 +16,6 @@ class Search extends React.Component {
 		
 		this.handleInputChange = this.handleInputChange.bind(this);
 		this.getInfo = this.getInfo.bind(this);
-
 		this.searchRef = React.createRef();
 
 	}
@@ -27,7 +26,8 @@ class Search extends React.Component {
 		this.setState({
 			query: this.searchRef.current.value
 		}, () => {
-				//below is just a way of limiting when you actually make the API call. 
+				//below is called right after component state is updated
+				//first condition - way of limiting when you actually make the API call. 
 			if (this.state.query && this.state.query.length > 1) {
 				this.getInfo();				
 			}
